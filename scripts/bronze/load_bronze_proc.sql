@@ -85,7 +85,7 @@ BEGIN
 		FREEZE true,
 		HEADER true
 	);
-	v_end_time = clcok_timestamp();
+	v_end_time = clock_timestamp();
 	RAISE NOTICE 'Duration: %', (v_end_time - v_start_time);
 	
 	v_start_time := clock_timestamp();
