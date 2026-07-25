@@ -22,7 +22,7 @@ DECLARE
 	v_end_time TIMESTAMP;
 BEGIN
 	RAISE NOTICE '================================';
-	RAISE NOTICE 'Loading Bronze Layer data';
+	RAISE NOTICE 'Loading Bronze Layer Data';
 	RAISE NOTICE '================================';
 	
 	RAISE NOTICE '--------------------';
