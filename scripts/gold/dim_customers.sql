@@ -6,7 +6,7 @@ SELECT
 	cst_firstname AS first_name,
 	cst_lastname AS last_name,
 	cntry AS country,
-	CASE 
+	CASE -- Data Integration of Two Columns Providing Same Info
 		WHEN cst_gndr != 'n/a' THEN cst_gndr -- Precedence to CRM Table
 		ELSE COALESCE(gen, 'n/a')
 	END AS gender,
