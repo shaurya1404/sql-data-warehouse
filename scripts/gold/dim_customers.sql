@@ -1,6 +1,6 @@
 CREATE VIEW gold.dim_customers AS
 SELECT
-	ROW_NUMBER() OVER (ORDER BY cst_id) AS customer_key, -- Create PK for Dimension's Table
+	ROW_NUMBER() OVER (ORDER BY cst_id) AS customer_key, -- Create PK for Dimensions' Table
 	cst_id AS customer_id,
 	cu.cst_key AS customer_number,
 	cst_firstname AS first_name,
