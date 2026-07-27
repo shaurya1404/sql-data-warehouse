@@ -2,7 +2,7 @@
 
 The Gold layer is the business-level representation of the data, modeled as a star schema to support analytics and reporting. It consists of dimension views and fact views built on top of the cleansed Silver layer.
 
-> Data types are given in PostgreSQL syntax (`VARCHAR`, `BIGINT`). The equivalents in SQL Server would be `NVARCHAR` and `INT`/`BIGINT`.
+> Data types are given in PostgreSQL syntax (`VARCHAR`). The equivalents in SQL Server would be `NVARCHAR`.
 
 ---
 
