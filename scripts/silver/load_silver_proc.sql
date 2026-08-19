@@ -172,7 +172,7 @@ BEGIN
 	-- -- Check for White Spaces in Columns
 	-- SELECT sls_order_num
 	-- FROM silver.crm_sales_details
-	-- WHERE sls_order_num != sls_order_num;
+	-- WHERE sls_order_num != TRIM(sls_order_num);
 	
 	-- -- Check if all prd_key values match the PK in crm_prd_info
 	-- SELECT sls_prd_key
