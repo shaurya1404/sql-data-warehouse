@@ -105,7 +105,7 @@ GROUP BY c.country
 ORDER BY revenue DESC;
 ```
 
-![Revenue By Country Query Output](docs/images/revenuw_by_country.png)
+![Revenue By Country Query Output](docs/images/revenue_by_country.png)
 
 ---
 
